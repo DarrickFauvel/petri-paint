@@ -1,5 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500&family=Itim&family=Poppins:wght@400;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* padding-top: 8rem; */
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+section {
+  padding-top: 8rem;
+}
+
+main,
+footer {
+  padding: 0 12px;
+}
+
+/* Header */
+.brand {
+  display: flex;
+  align-items: center;
+  /* padding-left: 13px; */
+}
+
+.brand-title {
+  font-size: 3rem;
+  font-family: 'Genos', sans-serif;
+}
+
+.brand img {
+  height: 40px;
+  width: 40px;
+  margin-top: 12px;
+}
+
+/* h1 {
+  font-family: 'Genos', sans-serif;
+  font-size: 4rem;
+} */
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+/* Main */
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+.made {
+  font-size: 0.8rem;
+}
+.attributions {
+  font-size: 0.7rem;
+}
+
+/* Utils */
+.flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.w100 {
+  width: 100%;
 }
