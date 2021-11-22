@@ -60,7 +60,6 @@ const renderColorPalette = () => {
   `
   })
 
-  console.log(renderedHtml)
   colorPalette.innerHTML = renderedHtml
   const colorChip = document.querySelectorAll('.color-chip')
 

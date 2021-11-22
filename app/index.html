@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Petri Paint</title>
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="filter"></div>
+    <div class="app">
+      <h1 class="app__heading">Petri Paint</h1>
+
+      <div class="toolbar">
+        <div class="component-group">
+          <div class="component-title">Tool Size</div>
+          <div class="component-interface">
+            <div class="tooltip">
+              <button class="toolbar__button_decrease">-</button>
+              <span class="tooltip_text"
+                >decrease<br />
+                size</span
+              >
+            </div>
+
+            <div class="tooltip">
+              <input class="toolbar__input_size" type="text" value="5" />
+              <span class="tooltip_text">current size</span>
+            </div>
+
+            <div class="tooltip">
+              <button class="toolbar__button_increase">+</button>
+              <span class="tooltip_text"
+                >increase<br />
+                size</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="component-group">
+          <div class="component-title">Color</div>
+          <div class="component-interface">
+            <div class="tooltip">
+              <div class="toolbar__color_chip--current">&nbsp;</div>
+              <span class="tooltip_text">current color</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="component-group">
+          <div class="component-title">Palette</div>
+          <div class="component-interface">
+            <div class="color-palette"></div>
+          </div>
+        </div>
+
+        <div class="component-group">
+          <div class="component-title">Clear</div>
+          <div class="component-interface">
+            <div class="tooltip">
+              <button class="toolbar__button_clear">X</button>
+              <span class="tooltip_text">clear<br />petri dish</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <canvas class="app__canvas" width="400" height="400"></canvas>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
