@@ -55,6 +55,10 @@ footer {
 }
 
 /* Main */
+.team__image {
+  height: 250px;
+  width: 250px;
+}
 
 /* Footer */
 footer {
