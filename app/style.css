@@ -54,6 +54,7 @@ a.back-link:hover {
 .app__heading {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .app__heading h1 {
   font-family: 'Genos', sans-serif;
@@ -212,4 +213,32 @@ a.back-link:hover {
   display: flex;
   align-items: center;
   margin: 0.25rem;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 2px solid #88888877;
+  padding: 0.25rem;
+  border-radius: 3px;
+  padding-bottom: 10px;
+}
+
+.examples__title {
+  margin-top: 10px;
+}
+
+.examples img {
+  width: 100px;
+  margin-top: 10px;
+  opacity: 0.8;
 }

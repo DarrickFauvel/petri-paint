@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-top: 8rem; */
+  padding-top: 3rem;
 }
 
 .container-grid {
@@ -19,7 +19,7 @@ body {
 }
 
 section {
-  padding-top: 8rem;
+  padding-top: 6rem;
 }
 
 main,
@@ -55,17 +55,47 @@ footer {
 }
 
 /* Main */
+h2 {
+  color: #4c1430;
+  border-bottom: 2px solid #4c1430cc;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.instructions__img--demo {
+  margin-left: 2rem;
+  width: 300px;
+  height: 300px;
+}
+
 .team__image {
-  height: 250px;
+  height: auto;
   width: 250px;
+  margin-right: 3rem;
+  border-radius: 2px;
+}
+
+.socials a {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+.socials i {
+  font-size: 2rem;
 }
 
 /* Footer */
 footer {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
 }
 .made {
   font-size: 0.8rem;
@@ -89,4 +119,7 @@ footer {
 }
 .w100 {
   width: 100%;
+}
+.w50 {
+  width: 50%;
 }

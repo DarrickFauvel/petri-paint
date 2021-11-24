@@ -10,6 +10,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/6181d1a037.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Welcome to Petri Paint</title>
   </head>
@@ -17,11 +21,6 @@
   <body id="home">
     <div class="container container-grid">
       <header>
-        <!-- <div class="brand">
-          <h1>Petri Paint</h1>
-          <img src="./images/noun_Petri Dish_897935.svg" alt="" />
-        </div> -->
-
         <nav
           class="navbar navbar-expand-lg navbar-dark bg-light fixed-top"
           style="background-color: #4c1430 !important"
@@ -52,6 +51,9 @@
                     <a class="nav-link" href="#about">About the App</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="#instructions">Instructions</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#team">Meet the Team</a>
                   </li>
                   <li class="nav-item">
@@ -76,19 +78,76 @@
           </p>
         </section>
 
+        <section id="instructions">
+          <h2>Instructions</h2>
+          <div class="flex">
+            <ul>
+              <li>
+                Click on
+                <a href="./app/index.html">&lt;&lt; Try the App &gt;&gt;</a>.
+              </li>
+              <li>
+                Use the mouse to click and draw your favorite virus, bacterium,
+                paramecium, etc., onto the petri dish.<br />
+                <img src="./images/instruction/virus.png" alt="" height="100" />
+                <img
+                  src="./images/instruction/bacteria.png"
+                  alt=""
+                  height="100"
+                />
+                <img
+                  src="./images/instruction/paramecium.png"
+                  alt=""
+                  height="100"
+                />
+              </li>
+              <li>
+                Adjust the Tool Size by clicking the increase (+) and decrease
+                (-) buttons.
+              </li>
+              <li>
+                Change the tool color by selecting a new color from the Palette.
+              </li>
+              <li>To wipe the petri dish clean, click the Clear button.</li>
+            </ul>
+            <img
+              class="instructions__img--demo"
+              src="./images/instruction/animated.gif"
+              alt="Animated demo"
+            />
+          </div>
+        </section>
+
         <section id="team">
           <h2>Meet the Team</h2>
-          <h3>Darrick Fauvel</h3>
-          <p>
-            Darrick is a frontend engineer currently enrolled as a student in a
-            fullstack web development bootcamp program. He has a bachelor's
-            degree in information technology with highest honors from the
-            University of Massachusetts. He likes the challenge of solving
-            interesting problems and helping other's find solutions. Darrick is
-            skilled in CSS, JavaScript & React, and is always keen to expanding
-            his learning on current and emerging technologies to get the job
-            done.
-          </p>
+          <div class="flex justify-content-between align-items-start">
+            <div>
+              <img class="team__image" src="./images/darrick.jpg" alt="" />
+            </div>
+            <div class="w100">
+              <h3>Darrick Fauvel</h3>
+              <p>
+                Darrick is a frontend engineer currently enrolled as a student
+                in a fullstack web development bootcamp. He has a bachelor's
+                degree in information technology from the University of
+                Massachusetts, and graduated summa cum laude. He likes the
+                challenge of solving interesting problems and helping other's
+                find solutions. Darrick is skilled in JavaScript, React, and
+                CSS, and is always keen to expanding his learning on current and
+                emerging technologies to get the job done.
+              </p>
+              <div class="socials">
+                <a
+                  href="https://www.linkedin.com/in/darrick-fauvel/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i> LinkedIn</a
+                >
+                <a href="https://github.com/DarrickFauvel" target="_blank"
+                  ><i class="fab fa-github-square"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </div>
         </section>
       </main>
 
@@ -96,8 +155,7 @@
         <p class="made">Made with ❤️ in Massachusetts by Darrick Fauvel</p>
         <div class="attributions">
           <p class="title">
-            Attributions:<br />
-            Petri Dish by
+            Petri Dish icon by
             <a
               href="https://thenounproject.com/search/?q=petri&i=897935"
               target="_blank"
