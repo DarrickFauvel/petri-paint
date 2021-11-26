@@ -12,11 +12,12 @@ Petri Paint is an app that allows the user to paint colorful bacteria, paramecia
 - Bootstrap
 
 ### Functionality:
-
 - Paint free-form lines
 - Adjust brush size
 - Change brush color
 - Clear petri dish
+
+<img src="https://darrickfauvel.github.io/petri-paint/images/instruction/animated.gif" width="400" />
  
 ### Installation
 If you'd like to play around with the code yourself, just clone/fork the repo.
